@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="176dp"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:background="#BCF3CD"
+    android:padding="12dp">
+
+    <ImageView
+        android:layout_width="95dp"
+        android:layout_height="79dp"
+        android:src="@drawable/ic_android_black_24dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="krutika solanki"
+        android:textStyle="bold"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="android devlopment"
+        android:textStyle="bold"
+        android:textSize="18sp" />
+
+</LinearLayout>
