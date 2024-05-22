@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#4DA898"
+    android:orientation="vertical"
+    android:padding="21dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Add Contact"
+        android:textSize="34sp"
+        android:textColor="@color/white"
+        android:id="@+id/textTitle"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="contact name"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:id="@+id/edtName"
+        android:backgroundTint="@color/white"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="contact number"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/white"
+        android:id="@+id/edtNumber"/>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ADD"
+            android:backgroundTint="#0C818C"
+            android:id="@+id/btnAction"
+            android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+
+
+
+</LinearLayout>
